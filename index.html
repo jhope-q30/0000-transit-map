@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Transit map</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="container">
+    <div id="maps">
+        <img src="img/map-base-01.svg" alt="transit map">
+        <img src="img/map-proposed-01.svg" alt="transit map proposed" id="proposed">
+        <img src="img/map-development-01.svg" alt="transit map in development" id="development">
+        <img src="img/map-existing-01.svg" alt="transit map existing network" id="existing">
+    </div>
+    <nav id="controls">
+        <div class="control-item">
+            <span class="control-title">A Real Plan for Transit</span>
+            <p><small>Support Jennifer Keesmaat’s new <a href="#" target="_blank">Network Transit Plan</a>.</small></p>
+        </div>
+        <div class="control-item">
+            <div class="control-container">
+                <label class="switch">
+                    PROPOSED
+                    <input type="checkbox" value="proposed">
+                    <span class="slider"></span>
+                </label>
+                <ul>
+                    <li class="bar thick waterfront-lrt">Waterfront LRT</li>
+                    <li class="bar thick scarborough-subway">Scarborough Subway</li>
+                    <li class="bar thick sheppard-rt">Sheppard RT</li>
+                    <li class="bar thick ece">Eglinton Crosstown Extensions</li>
+                    <li class="bar thick relief-subway-line">Relief Subway Line</li>
+                    <li class="bar thick jane-lrt">Jane LRT</li>
+                    <li class="bar king-st-pilot">King St. Pilot (Permanent)</li>
+                    <li class="bar relief-subway-line">Enhanced Bus Services</li>
+                    <li class="proposed-go">Proposed GO Stations</li>
+                </ul>
+            </div>
+        </div>
+        <div class="control-item">
+            <div class="control-container">
+                <label class="switch">
+                    IN DEVELOPMENT
+                    <input type="checkbox" value="development">
+                    <span class="slider"></span>
+                </label>
+                <ul>
+                    <li class="bar thick eglinton-crosstown">Eglinton Crosstown</li>
+                    <li class="bar thick finch-west-lrt">Finch West LRT</li>
+                </ul>
+            </div>
+        </div>
+        <div class="control-item">
+            <div class="control-container">
+                <label class="switch">
+                    EXISTING NETWORK
+                    <input type="checkbox" value="existing">
+                    <span class="slider"></span>
+                </label>
+                <ul>
+                    <li class="bar thick yonge-university">Yonge-University Subway Line</li>
+                    <li class="bar thick bloor-danforth">Bloor-Danforth Subway Line</li>
+                    <li>Scarborough RT Line</li>
+                    <li>Sheppard Subway Line</li>
+                    <li>Lakeshore West GO Train Line</li>
+                    <li>Milton GO Train Line</li>
+                    <li>Kitchener GO Train Line</li>
+                    <li>Barrie GO Train Line</li>
+                    <li>Stouffville GO Train Line</li>
+                    <li>Lakeshore East GO Train Line</li>
+                    <li>Union-Pearson Express</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
