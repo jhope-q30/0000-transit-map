@@ -66,8 +66,7 @@
         }
 
     $forEach($toggles, function (index, value) {
-        // clear checked ( browser refreshes )
-        if(value.checked){
+        if(value.checked){ /* clear checked ( browser refreshes ) */
             value.checked = false;
         }
         $parent_node = value.parentNode;

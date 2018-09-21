@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #ccc;
+  background-color: #fff;
   color: #333;
   font-family: 'Open Sans', sans-serif;
 }
@@ -155,6 +155,33 @@ body {
 #controls ul li.bloor-danforth:before {
   border-color: #00B550;
 }
+#controls ul li.scarborough-rt:before {
+  border-color: #2870FF;
+}
+#controls ul li.sheppard-subway:before {
+  border-color: #CA0073;
+}
+#controls ul li.lakeshore-west-go:before {
+  border-color: #AA002A;
+}
+#controls ul li.milton-go:before {
+  border-color: #FF7B00;
+}
+#controls ul li.kitchener-go:before {
+  border-color: #00913F;
+}
+#controls ul li.barrie-go:before {
+  border-color: #102D69;
+}
+#controls ul li.stouffville-go:before {
+  border-color: #814600;
+}
+#controls ul li.lakeshore-east-go:before {
+  border-color: #FF0000;
+}
+#controls ul li.union-pearson-express:before {
+  border-color: #6D8944;
+}
 /* toggle switch */
 .switch {
   position: relative;
@@ -177,8 +204,8 @@ body {
   width: 40px;
   height: 10px;
   background-color: #E0E0E0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   border-radius: 10px;
 }
 .slider:before {
@@ -189,8 +216,8 @@ body {
   left: 0;
   bottom: -5px;
   background-color: #949494;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   border-radius: 50%;
 }
 input:checked + .slider {
