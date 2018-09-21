@@ -4,14 +4,14 @@
         $class_on = 'active',
         $class_off = 'off',
         $forEach = function(array, callback, scope){
-            for (var i = 0; i < array.length; i++){
+            for(var i = 0; i < array.length; i++){
                 callback.call(scope, i, array[i]);
             }
         },
         $toggle_class = function(el, className){
-            if (el.classList) {
+            if(el.classList) {
                 el.classList.toggle(className);
-            } else {
+            }else{
                 var classes = el.className.split(' ');
                 var existingIndex = classes.indexOf(className);
                 if (existingIndex >= 0){
@@ -31,7 +31,7 @@
             return false;
         },
         $add_class = function(el, className){
-            if (el.classList){
+            if(el.classList){
                 el.classList.add(className);
             }else{
                 el.className += ' ' + className;
